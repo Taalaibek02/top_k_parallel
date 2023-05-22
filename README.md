@@ -1,6 +1,5 @@
 # top_k_parallel
  Parallel TopK algorithm using multiple threads
-```
 # File access and data parsing 
 The efficiency of the implementation of a parallel TopK algorithm depends heavily on how to 
 store and order a vast amount of data. First off, we should have read the data from the files. My 
@@ -37,4 +36,3 @@ the corresponding heap tree.
 The time complexity of the approach described above is O(N + F + KlogN). 
 O(F) – reading the input files, O(N) – building a heap, O(KlogN) – getting the top K values, 
 where F – number of input logs, N – number of distinct hours. 
-```
